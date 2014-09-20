@@ -29,4 +29,14 @@
     <servlet-name>SpecQuery</servlet-name>
     <url-pattern>/SpecQuery</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PIQuery</display-name>
+    <servlet-name>PIQuery</servlet-name>
+    <servlet-class>com.web.csi.PIQuery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PIQuery</servlet-name>
+    <url-pattern>/PIQuery</url-pattern>
+  </servlet-mapping>
 </web-app>
